@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Wind Tunnel Recorder App"
+authors:
+  - name: G.A.
+date-released: 2025-07-16
+url: "https://github.com/gabb-OS/WindTunnel_project.git"
+version: "1.0.0"

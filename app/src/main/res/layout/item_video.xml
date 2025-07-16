@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/videoThumbnail"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        android:contentDescription="@string/video_thumb"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="CameraX-video-2023-10-27-10-30-00-000.mp4" />
+
+        <TextView
+            android:id="@+id/videoDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            tools:text="00:35" />
+    </LinearLayout>
+</LinearLayout>

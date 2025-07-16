@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">WTRecorder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">WindTunnel Video Recorder</string>
+    <string name="nav_header_subtitle">LoM Project</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--Recorder timer label-->
+    <string name="timer_placeholder">00:00</string>
+    <string name="menu_home">Session Recorder</string>
+    <string name="menu_saved_sessions">Saved Sessions</string>
+
+    <!--Permissions related strings-->
+    <string name="access_to_storage_denied">Permission denied. Please grant storage access in settings.</string>
+    <string name="no_videos_found">No videos found in \'Movies/YourApp-Videos\'</string>
+    <string name="video_thumb">Video Thumbnail</string>
+    <string name="no_videos">No videos found.</string>
+    <string name="permission_denied_video_access">Video access permission was denied. Videos cannot
+        be shown.
+    </string>
+    <string name="permission_needed_title">Permission Needed</string>
+    <string name="permission_rationale_video_access">This app needs access to your videos to display
+        them in the gallery. Please grant the permission.
+    </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="permission_denied_title">Permission Denied</string>
+    <string name="permission_denied_video_settings_redirect">You have previously denied video
+        access. Please enable it in the app settings to view your videos.
+    </string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="no_app_can_handle_video">No application found to play this video.</string>
+
+    <!--Relative path to video storage-->
+   <string name="path_to_recordings_in_device">Movies/WindTunnelRec</string>
+
+</resources>
